@@ -30,5 +30,4 @@ Update the registry-secret.yaml file with the base64 encoded value of your docke
 
 Replace <YOUR_DOCKERHUB_USERNAME>, <DOCKERHUB_ACCESS_TOKEN>, and <YOUR_EMAIL> with your information. After creating the JSON, base64 encode it and place it in the YAML file.
 
-To base64 encode, you can use ```echo -n '<JSON_CONTENT>' | base64
-```
+To base64 encode, you can use ```echo -n '<JSON_CONTENT>' | base64```
