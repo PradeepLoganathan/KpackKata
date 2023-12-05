@@ -1,0 +1,16 @@
+apiVersion: kpack.io/v1alpha2
+kind: Image
+metadata:
+  name: sample-image
+  namespace: default
+spec:
+  tag: pradeepl/myapp
+  serviceAccountName: kpack-service-account
+  builder:
+    name: my-builder
+    kind: Builder
+  source:
+    git:
+      url: https://github.com/PradeepLoganathan/AccuWeather
+      revision: 96976f0f4d9b5fceda838fb55c3235961dae4e6c
+  syncPeriod: 30m
