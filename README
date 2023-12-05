@@ -1,4 +1,4 @@
-Companion project for blog post at https://pradeepl.com/kpack
+Companion project for blog post at https://pradeepl.com/blog/kpack
 A sample project to demonstrate setting up Kpack with all its necessary components such as 
  - ClusterBuilder
  - ClusterStack
@@ -16,7 +16,7 @@ A sample project to demonstrate setting up Kpack with all its necessary componen
 
 Update the registry-secret.yaml file with the base64 encoded value of your docker config json. The docker config json looks like this 
 
-```json
+```
 {
   "auths": {
     "https://index.docker.io/v1/": {
